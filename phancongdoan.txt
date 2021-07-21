@@ -1,0 +1,32 @@
+Đề tài: Thực hiện phân tích thăm dò (EDA) đối với dữ liệu covid-19 ở Việt Nam
+Mục tiêu: Đưa ra những nhận xét về đối tượng dân cư nào dễ bị ảnh hưởng bởi đại dịch nhất
+
+- Nguồn dữ liệu: crawl từ www.ncov.moh.gov.vn/ gồm các thuộc tính:
+	+ Thời gian -D
+	+ Bệnh nhân
+	+ Tuổi
+	+ Địa điểm
+	+ Tình trạng
+	+ Quốc tịch
+- Usable resource:
+	+ Vùng và thời gian phong tỏa
+	+ Thời điểm phát động tiêm vaccine
+
+- Tìm các insight trong dữ liệu:
+	+ Số người ngoại quốc và trong nước (tìm tổng số, tỉ lệ,...)	-D
+	+ Các địa điểm có ca nhiễm (bản đồ phân bố ca nhiễm theo tỉnh)	-P
+	+ Số ca tử vong, số ca chữa khỏi	*	-P
+	+ Phân phối độ tuổi nhiễm bệnh	*	-B
+	+ Xác định độ tuổi có nguy cơ tử vong cao	*	-N
+	+ Xác định tỉ lệ tử vong ở các tỉnh thành 	*	-N
+	
+	+ Biểu đồ giữa thời gian và độ tuổi	*	-DB
+	
+	...
+- Kiểm định giả thuyết:
+	+ Các ca nhiễm ở thành phố lớn (HN, TP.HCM, Đà Nẵng, Hải Phòng,...) có tỉ lệ chữa khỏi cao hơn so với ở tỉnh khác?
+	+ Những người cao tuổi là những người có nguy cơ tử vong cao nhất?
+	+ Các tỉnh giáp Campuchia có nhiều nguy cơ lây nhiễm hơn các tỉnh giáp Trung Quốc?
+	+ Áp dụng phong tỏa có làm giảm số ca nhiễm ở vùng dịch? (Bắc Giang, Đà Nẵng,...)
+	+ ...
+	
